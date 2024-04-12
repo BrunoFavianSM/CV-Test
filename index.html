@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Perfil de Bruno</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+	
+	<script>
+		$(document).ready(function(){
+			$(window).scroll(function(){
+				var scroll = $(window).scrollTop();
+				$('.background-container').css('background-position', 'center ' + (-scroll/2) + 'px'); /* Actualiza la posición vertical del fondo */
+			});
+		});
+	</script>
+
+	<style>
+
+    .color {
+        color: green;
+    }
+    .background-container {
+        background-image: url('img/bg_01.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: brightness(120%);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+		transition: background-position 0.0001s;
+    }
+	
+    </style>
+</head>
+<body>
+
+<div class="background-container"></div>
+	<div class="jumbotron bg-success text-white">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 text-left">
+					<h2>BRUNO SALDARRIAGA</h2>
+					<p>Ingeniero de Software</p>
+				</div>
+				<div class="col-sm-4 text-center">
+					<img src="img/perfil_01.png" class="rounded-circle" style="width: 200px; height: 200px; margin: -40px;">
+				</div>
+				<div class="col-sm-4 text-right">
+					<p>bruno.saldarriaga20@gmail.com</p>
+					<p><a class="text-white" href="https://wa.me/51993230740" target="_blank">+51 993 230 740</a></p>
+					<p><a class="text-white" href="https://github.com/Bruno0204" target="_blank">https://github.com/Bruno0204</a></p>
+				</div>
+			</div>
+ 		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4 text-left">
+				<h3>Perfil profecional</h3><br>
+				<p>Ingeniero de Software con experiencia en el desarrollo y diseño de aplicaciones y sistemas informáticos. Apasionado por la resolución de problemas y el desarrollo de soluciones innovadoras. Capacidad demostrada para trabajar en equipo y liderar proyectos. Comprometido con la mejora continua y el aprendizaje constante en el campo de la ingeniería de software.</p><br><br>
+
+				<h3>IDIOMAS</h3><br>
+				<p><span class="color">Español: </span>Nativo</p><br>
+				<p><span class="color">Inglés: </span>Avanzado</p><br><br>
+
+				<h3>HABILIDADES TÉCNICAS</h3><br>
+				<p>Lenguajes de Programación: Java, C++, HTML</p><br>
+				<p>Desarrollo Web: HTML, CSS</p>
+
+			</div>
+			<div class="col-sm-7 text-left">
+				<h3>Experiencia profecional</h3>
+				<h6>Ingeniero de Software</h6>
+				<h6><span class="color">Empresa XYZ, Ciudad</span></h6>
+				<p>• Diseño, desarrollo y mantenimiento de aplicaciones web.</p>
+				<p>• Implementación de soluciones eficientes para problemas de escalabilidad y rendimiento.</p>
+				<p>• Colaboración con equipos multidisciplinarios en la planificación y ejecución de proyectos de software.</p><br>
+
+				<h6>Desarrollador de Software</h6>
+				<h6><span class="color">Empresa ABC, Ciudad</span></h6>
+				<p>• Participación en el desarrollo de un sistema de gestión de contenido utilizando Java.</p>
+				<p>• Resolución de errores y optimización de código para mejorar la experiencia del usuario.</p>
+				<p>• Colaboración en la elaboración de documentación técnica y manuales de usuario.</p><br><br>
+
+				<h3>EDUCACIÓN</h3>
+				<h6>Ingeniería Informática</h6>
+				<h6><span class="color">Instituto SENATI, TALARA</span></h6>
+				<p>• Participación en el desarrollo de un sistema de gestión de contenido utilizando Java.</p>
+				<p>• Resolución de errores y optimización de código para mejorar la experiencia del usuario.</p>
+				<p>• Colaboración en la elaboración de documentación técnica y manuales de usuario.</p><br><br>
+
+				<h3>CURSOS Y CERTIFICACIONES</h3>
+				<h6>Certificado en Desarrollo Web</h6>
+				<p><span class="color">Plataforma de Educación en Línea</span></p>
+				<p>• Especialización en desarrollo de software y sistemas informáticos.</p>
+				<p>• Proyecto de fin de carrera: "Desarrollo de una aplicación móvil para la gestión de tareas utilizando tecnologías Android".</p><br>
+
+				<h6>Certificación en Scrum Master</h6>
+				<p><span class="color">Organización de Certificaciones en Gestión de Proyectos, Año</span></p>
+				<p>• Conocimiento profundo de los principios y prácticas ágiles para la gestión de proyectos de software.</p><br>
+
+				<h3>INTERESES</h3>
+				<p>Programación competitiva, Inteligencia Artificial</p><br>
+
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
